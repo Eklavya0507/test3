@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#05070a" />
+  <meta
+    name="description"
+    content="ProTrader — a cinematic trading workspace for disciplined execution."
+  />
+  <title>ProTrader — Trade Beyond Noise</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="protrader-v3.css" />
+</head>
+
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <div class="noise-layer" aria-hidden="true"></div>
+
+  <header class="topbar" data-topbar>
+    <a class="brand" href="#top" aria-label="ProTrader home">
+      <span class="brand-symbol" aria-hidden="true">
+        <i></i><i></i><i></i>
+      </span>
+      <span>ProTrader</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#platform">Platform</a>
+      <a href="#process">Process</a>
+      <a href="#engine">Intelligence</a>
+      <a href="#knowledge">Knowledge</a>
+      <a href="#security">Security</a>
+    </nav>
+
+    <div class="top-actions">
+      <a class="sign-in" href="login.html">Sign In</a>
+      <a class="btn btn-gold btn-small" href="login.html">
+        Start Trading <span>↗</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle menu" data-menu-toggle>
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" data-mobile-menu>
+      <a href="#platform">Platform</a>
+      <a href="#process">Process</a>
+      <a href="#engine">Intelligence</a>
+      <a href="#knowledge">Knowledge</a>
+      <a href="#security">Security</a>
+      <a href="login.html">Sign In</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero page-shell">
+      <div class="hero-copy reveal">
+        <p class="kicker"><span></span> Built for disciplined traders</p>
+
+        <h1>
+          Trade
+          <em>Beyond</em>
+          Noise.
+        </h1>
+
+        <p class="hero-lead">
+          Built for clarity, speed and intelligent execution.
+        </p>
+
+        <p class="hero-text">
+          Plan setups, understand risk, execute with discipline and review
+          every decision from one connected professional workspace.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="login.html">
+            Open Workspace <span>→</span>
+          </a>
+          <a class="btn btn-outline" href="#platform">
+            Explore Platform <span class="round-arrow">↘</span>
+          </a>
+        </div>
+
+        <div class="trust-row">
+          <div>
+            <b>Ultra-fast</b>
+            <small>Responsive workflow</small>
+          </div>
+          <div>
+            <b>Intelligent</b>
+            <small>Context-aware insights</small>
+          </div>
+          <div>
+            <b>Secure</b>
+            <small>Risk-first protection</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual hero-reference-stage reveal" data-hero-scene>
+        <div class="code-mountain mountain-one" aria-hidden="true"></div>
+        <div class="code-mountain mountain-two" aria-hidden="true"></div>
+        <div class="code-mountain mountain-three" aria-hidden="true"></div>
+
+        <div class="reference-scene-layer" data-depth="0.07">
+          <img
+            src="assets/hero-reactor-reference.webp"
+            alt="Realistic ProTrader AI trading workstation"
+          />
+        </div>
+
+        <div class="reference-core-layer" data-depth="0.22">
+          <img
+            src="assets/hero-brain-core.webp"
+            alt=""
+            aria-hidden="true"
+          />
+        </div>
+
+        <div class="reactor-energy" aria-hidden="true">
+          <i class="energy-beam beam-a"></i>
+          <i class="energy-beam beam-b"></i>
+          <i class="energy-beam beam-c"></i>
+          <i class="energy-ring energy-ring-one"></i>
+          <i class="energy-ring energy-ring-two"></i>
+          <i class="energy-ring energy-ring-three"></i>
+        </div>
+
+        <div class="hero-live-badge" data-depth="0.16">
+          <span class="live-dot"></span>
+          <div>
+            <small>PROTRADER INTELLIGENCE</small>
+            <strong>AI Engine Online</strong>
+          </div>
+        </div>
+
+        <div class="depth-dust" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <i></i>
+      </div>
+    </section>
+
+    <section id="process" class="process page-shell">
+      <div class="section-heading reveal">
+        <p class="kicker">Our process</p>
+        <h2>A Framework<br />for Better Decisions.</h2>
+        <p>
+          Markets reward preparation, discipline and risk control.
+          ProTrader turns that process into a visual workflow.
+        </p>
+      </div>
+
+      <div class="process-map reveal">
+        <div class="map-axis"></div>
+        <div class="map-arc arc-one"></div>
+        <div class="map-arc arc-two"></div>
+        <div class="map-arc arc-three"></div>
+
+        <article>
+          <span class="step-no">01</span>
+          <div class="step-icon">◉</div>
+          <h3>Observe</h3>
+          <p>Read context and filter noise.</p>
+        </article>
+        <article>
+          <span class="step-no">02</span>
+          <div class="step-icon">▦</div>
+          <h3>Plan</h3>
+          <p>Define setup, invalidation and risk.</p>
+        </article>
+        <article>
+          <span class="step-no">03</span>
+          <div class="step-icon">ϟ</div>
+          <h3>Execute</h3>
+          <p>Act only when conditions align.</p>
+        </article>
+        <article>
+          <span class="step-no">04</span>
+          <div class="step-icon">◇</div>
+          <h3>Manage Risk</h3>
+          <p>Protect capital before chasing reward.</p>
+        </article>
+        <article>
+          <span class="step-no">05</span>
+          <div class="step-icon">↗</div>
+          <h3>Compound</h3>
+          <p>Review, refine and repeat your edge.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="platform" class="platform page-shell">
+      <div class="section-heading reveal">
+        <p class="kicker">Professional tools</p>
+        <h2>Everything<br />You Need.</h2>
+        <p>
+          A connected workspace for stocks, options, futures,
+          ETFs and disciplined review.
+        </p>
+      </div>
+
+      <div class="cards">
+        <article class="feature-card reveal tilt">
+          <header><span class="accent cyan">∿</span><h3>Stocks</h3></header>
+          <p>Watchlists, market context and focused price-action views.</p>
+          <div class="mini-line"><span></span></div>
+        </article>
+
+        <article class="feature-card reveal tilt">
+          <header><span class="accent violet">Ω</span><h3>Options</h3></header>
+          <p>Option chain, strategy builder, payoff and live Greeks.</p>
+          <div class="mini-table">
+            <span>Delta</span><b>0.42</b><i class="up">+0.08</i>
+            <span>Gamma</span><b>0.09</b><i class="up">+0.01</i>
+            <span>Theta</span><b>-4.6</b><i class="down">-0.4</i>
+          </div>
+        </article>
+
+        <article class="feature-card reveal tilt">
+          <header><span class="accent orange">↗</span><h3>Futures</h3></header>
+          <p>Realtime margin, depth and execution context.</p>
+          <div class="bar-chart">
+            <i style="--h:30%"></i><i style="--h:55%"></i><i style="--h:43%"></i>
+            <i style="--h:76%"></i><i style="--h:62%"></i><i style="--h:91%"></i>
+          </div>
+        </article>
+
+        <article class="feature-card reveal tilt">
+          <header><span class="accent green">✦</span><h3>ETFs</h3></header>
+          <p>Portfolio allocation and diversified exposure views.</p>
+          <div class="allocation"><span>64%</span></div>
+        </article>
+
+        <article class="feature-card reveal tilt">
+          <header><span class="accent blue">AI</span><h3>AI Journal</h3></header>
+          <p>Review decisions, detect mistakes and improve consistency.</p>
+          <ul class="trade-list">
+            <li><span>NIFTY CE</span><b class="up">+1,245</b></li>
+            <li><span>BANKNIFTY PE</span><b class="up">+892</b></li>
+            <li><span>TATAMOTORS</span><b class="down">-210</b></li>
+          </ul>
+        </article>
+
+        <article class="feature-card wide reveal tilt">
+          <header><span class="accent violet">Δ</span><h3>Realtime Greeks</h3></header>
+          <p>Track Delta, Gamma, Theta and Vega in live positional context.</p>
+          <div class="greeks">
+            <div><small>Delta</small><strong>0.42</strong></div>
+            <div><small>Gamma</small><strong>0.09</strong></div>
+            <div><small>Theta</small><strong>-4.6</strong></div>
+            <div><small>Vega</small><strong>13.2</strong></div>
+          </div>
+        </article>
+
+        <article class="feature-card wide reveal tilt">
+          <header><span class="accent cyan">⛓</span><h3>Linked Widgets</h3></header>
+          <p>Synchronize charts, watchlists, positions and option chains.</p>
+          <div class="widget-network">
+            <i></i><i></i><i></i><i></i>
+          </div>
+        </article>
+
+        <article class="feature-card reveal tilt">
+          <header><span class="accent gold">◇</span><h3>Risk Controls</h3></header>
+          <p>Set rules before emotion enters the trade.</p>
+          <div class="risk-row"><span>Daily limit</span><b>-2.0%</b><i></i></div>
+          <div class="risk-row"><span>Position risk</span><b>0.5%</b><i class="on"></i></div>
+        </article>
+
+        <article class="feature-card reveal tilt">
+          <header><span class="accent blue">▣</span><h3>Multi-Screen Workspace</h3></header>
+          <p>Build a layout around your trading process.</p>
+          <div class="screen-layout"><span></span><span></span><span></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="engine" class="engine page-shell">
+      <div class="section-heading reveal">
+        <p class="kicker">The engine</p>
+        <h2>ProTrader<br />Intelligence Core.</h2>
+        <p>
+          A visual analysis layer built to make complex market information
+          easier to understand and act on.
+        </p>
+      </div>
+
+      <div class="chip-scene engine-reference-stage reveal" data-chip-scene>
+        <div class="engine-circuit-grid" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span>
+        </div>
+
+        <div class="engine-reference-layer">
+          <img
+            src="assets/engine-chip-reference.webp"
+            alt="Realistic ProTrader AI processor"
+          />
+        </div>
+
+        <div class="engine-core-layer" data-chip>
+          <img
+            src="assets/engine-chip-core.webp"
+            alt=""
+            aria-hidden="true"
+          />
+        </div>
+
+        <div class="engine-aura" aria-hidden="true">
+          <i></i><i></i><i></i>
+        </div>
+
+        <article class="engine-card card-one">
+          <span>ϟ</span>
+          <div>
+            <h3>Ultra-Fast Insights</h3>
+            <p>Surface relevant information without unnecessary noise.</p>
+          </div>
+        </article>
+
+        <article class="engine-card card-two">
+          <span>◎</span>
+          <div>
+            <h3>Adaptive Watchlists</h3>
+            <p>Keep attention aligned with changing market conditions.</p>
+          </div>
+        </article>
+
+        <article class="engine-card card-three">
+          <span>▤</span>
+          <div>
+            <h3>Realtime Depth</h3>
+            <p>Read liquidity and order flow with clear visual context.</p>
+          </div>
+        </article>
+
+        <article class="engine-card card-four">
+          <span>◇</span>
+          <div>
+            <h3>Low-Latency Workspace</h3>
+            <p>Responsive interaction for focused execution.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="knowledge" class="knowledge page-shell">
+      <div class="section-heading reveal">
+        <p class="kicker">Trader insights</p>
+        <h2>Knowledge<br />Builds Edge.</h2>
+        <p>Master psychology, strategy, risk and capital protection.</p>
+      </div>
+
+      <div class="article-grid">
+        <article class="article reveal">
+          <div class="visual visual-chess"><span>01</span></div>
+          <small>Market Psychology · May 28, 2026</small>
+          <h3>Master Your Mind,<br />Master the Market.</h3>
+          <p>Emotions are normal. Process is the edge.</p>
+          <a href="#">Read More <span>→</span></a>
+        </article>
+
+        <article class="article reveal">
+          <div class="visual visual-mountain"><span>02</span></div>
+          <small>Options Strategy · May 26, 2026</small>
+          <h3>The Iron Condor<br />Explained Simply.</h3>
+          <p>A disciplined structure for range-bound markets.</p>
+          <a href="#">Read More <span>→</span></a>
+        </article>
+
+        <article class="article reveal">
+          <div class="visual visual-bridge"><span>03</span></div>
+          <small>Risk Discipline · May 24, 2026</small>
+          <h3>Risk Less. Sleep More.<br />Trade Better.</h3>
+          <p>Practical rules that protect your capital.</p>
+          <a href="#">Read More <span>→</span></a>
+        </article>
+
+        <article class="article reveal">
+          <div class="visual visual-building"><span>04</span></div>
+          <small>Capital Protection · May 22, 2026</small>
+          <h3>Survive First,<br />Thrive Forever.</h3>
+          <p>Capital preservation is the foundation of longevity.</p>
+          <a href="#">Read More <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="security" class="security page-shell reveal">
+      <div>
+        <p class="kicker">Protected by design</p>
+        <h2>Security should feel invisible.<br />Protection should not.</h2>
+      </div>
+      <div class="security-tags">
+        <span>Managed sessions</span>
+        <span>Authenticator 2FA</span>
+        <span>Device alerts</span>
+        <span>Risk controls</span>
+      </div>
+    </section>
+
+    <section class="closing page-shell reveal">
+      <div class="kinetic-loop loop-left" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="kinetic-loop loop-right" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+
+      <p class="closing-label">A trader's edge is trained, not found.</p>
+      <h2>Precision. Patience. Performance.</h2>
+      <p>Train your edge. Trust your process. Trade with purpose.</p>
+      <a class="btn btn-gold" href="login.html">
+        Start Trading Now <span>→</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer page-shell">
+    <div class="footer-brand">
+      <a class="brand" href="#top">
+        <span class="brand-symbol"><i></i><i></i><i></i></span>
+        <span>ProTrader</span>
+      </a>
+      <p>Trade beyond noise.</p>
+    </div>
+
+    <div class="footer-links">
+      <div><b>Platform</b><a href="#platform">Trading Tools</a><a href="#engine">Intelligence</a><a href="#">System Status</a></div>
+      <div><b>Markets</b><a href="#">Stocks</a><a href="#">Options</a><a href="#">Futures</a><a href="#">ETFs</a></div>
+      <div><b>Knowledge</b><a href="#knowledge">Insights</a><a href="#">Webinars</a><a href="#">Help Center</a></div>
+      <div><b>Company</b><a href="#">About</a><a href="#">Careers</a><a href="#">Contact</a></div>
+      <div><b>Legal</b><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Risk Disclosure</a></div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 ProTrader Technologies Pvt. Ltd.</span>
+      <span>Built for disciplined execution.</span>
+    </div>
+  </footer>
+
+  <script src="protrader-v3.js"></script>
+</body>
+</html>
